@@ -1,0 +1,17 @@
+[ {
+  "firstName" : "saurabh",
+  "lastName" : "manchanda",
+  "address" : "some",
+  "city" : "delhi",
+  "state" : "hgfg",
+  "zip" : "8786",
+  "phoneNumber" : "9878564"
+}, {
+  "firstName" : "vishal",
+  "lastName" : "dubey",
+  "address" : "pune",
+  "city" : "pune",
+  "state" : "maha",
+  "zip" : "7555",
+  "phoneNumber" : "98787564"
+} ]
