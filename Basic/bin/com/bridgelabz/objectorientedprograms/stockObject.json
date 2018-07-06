@@ -1,0 +1,15 @@
+{
+  "arraylist" : [ {
+    "stockName" : "cognizant",
+    "numberOfShares" : 4,
+    "sharePrice" : 1000
+  }, {
+    "stockName" : "wipro",
+    "numberOfShares" : 3,
+    "sharePrice" : 200
+  }, {
+    "stockName" : "bridgelabz",
+    "numberOfShares" : 5,
+    "sharePrice" : 300
+  } ]
+}
