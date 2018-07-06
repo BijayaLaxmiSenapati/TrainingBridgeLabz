@@ -1,0 +1,29 @@
+{
+  "riceDetails" : [ {
+    "name" : "basmati",
+    "weight" : 5,
+    "price" : 50
+  }, {
+    "name" : "jhg",
+    "weight" : 6,
+    "price" : 60
+  } ],
+  "wheatDetails" : [ {
+    "name" : "wheat1",
+    "weight" : 7,
+    "price" : 70
+  }, {
+    "name" : "wheat2",
+    "weight" : 8,
+    "price" : 80
+  } ],
+  "pulsesDetails" : [ {
+    "name" : "pulse1",
+    "weight" : 3,
+    "price" : 30
+  }, {
+    "name" : "pulse2",
+    "weight" : 4,
+    "price" : 40
+  } ]
+}

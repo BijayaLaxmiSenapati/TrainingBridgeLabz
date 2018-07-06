@@ -1,0 +1,25 @@
+[ {
+  "firstName" : "Anita",
+  "lastName" : "Sarab",
+  "address" : "UtkalCinemaHall",
+  "city" : "Berhampur",
+  "state" : "Odisha",
+  "zip" : "760001",
+  "phoneNumber" : "9861529585"
+}, {
+  "firstName" : "Bijaya",
+  "lastName" : "Senapati",
+  "address" : "SankhariStreet",
+  "city" : "Berhampur",
+  "state" : "Odisha",
+  "zip" : "760009",
+  "phoneNumber" : "7377145005"
+}, {
+  "firstName" : "Yugandhara",
+  "lastName" : "Paranjpe",
+  "address" : "Vashi",
+  "city" : "Mumbai",
+  "state" : "Maharastra",
+  "zip" : "890001",
+  "phoneNumber" : "9845230734"
+} ]

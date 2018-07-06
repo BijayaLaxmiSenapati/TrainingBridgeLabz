@@ -1,0 +1,4 @@
+{
+"nokia": {"stockName":"nokia", "numOfShare":5, "eachSharePrice":100},
+"samsung": {"stockName":"samsung", "numOfShare":10, "eachSharePrice":200}
+}
