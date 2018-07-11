@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+  
+   <!-- bean definitions go here -->
+<bean name="employee" class="com.bridgelabz.spring.model.Employee">
+<property name="name" value="Bijaya Laxmi"></property>
+</bean>
+
+<bean name="employee2" class="com.bridgelabz.spring.model.Employee" autowire-candidate="false">
+<property name="name" value="any default name"></property>
+</bean>
+
+<bean name="employeeServiceByName" class="com.bridgelabz.spring.service.EmployeeService" autowire="byName"></bean>
+
+<bean name="employeeServiceByType" class="com.bridgelabz.spring.service.EmployeeService" autowire="byType"></bean>
+
+<bean name="employeeServiceByConstructor" class="com.bridgelabz.spring.service.EmployeeService" autowire="constructor"></bean>
+
+<context:annotation-config />
+
+<bean name="autoWiredByType" class="com.bridgelabz.spring.service.AutoWiredByType"></bean>
+
+<bean name="autowiredByConstructor" class="com.bridgelabz.spring.service.AutowiredByConstructor"></bean>
+
+</beans>
