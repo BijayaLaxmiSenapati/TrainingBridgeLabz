@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>RequestDispatcher</display-name>
+  
+  <!-- for FirstServlet and SecondServlet -->
+  
+ <!--  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.bridgelabz.requestdispatcher.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SecondServlet</servlet-name>
+    <servlet-class>com.bridgelabz.requestdispatcher.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServlet</servlet-name>
+    <url-pattern>/SecondServlet</url-pattern>
+  </servlet-mapping> -->
+  
+  
+ <!--  for FirServlet and SecServlet -->
+   <welcome-file-list>
+    <welcome-file>product.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>firstservlet</servlet-name>
+    <servlet-class>com.bridgelabz.requestdispatcher.FirServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>firstservlet</servlet-name>
+    <url-pattern>/fServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>secondservlet</servlet-name>
+    <servlet-class>com.bridgelabz.requestdispatcher.SecServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>secondservlet</servlet-name>
+    <url-pattern>/sServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
