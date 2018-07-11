@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+  
+   <!-- bean definitions go here -->
+<bean id="ans1" class="com.bridgelabz.basics.Answer">
+<constructor-arg value="100"></constructor-arg>
+<constructor-arg value="Sister of Debasish Senapati and Suprabha Senapati"></constructor-arg>
+<constructor-arg value="Shyam Kumar"></constructor-arg>
+</bean>
+
+<bean id="ans2" class="com.bridgelabz.basics.Answer">
+<constructor-arg value="101"></constructor-arg>
+<constructor-arg value="Daughter of Bijaya Kumar Senapati and Indira Senapati"></constructor-arg>
+<constructor-arg value="Sonali Pani"></constructor-arg>
+</bean>
+
+
+<bean id="que" class="com.bridgelabz.basics.Question">
+<constructor-arg value="1" ></constructor-arg>
+<constructor-arg value="Who is Bijaya Laxmi?" ></constructor-arg>
+<constructor-arg >
+
+<list>
+<!-- <value>Sister of Debasish Senapati and Suprabha Senapati</value>
+<value>Daughter of Bijaya Kumar Senapati and Indira Senapati</value>
+<value>Friend of Tapaswini patra</value> -->
+<ref bean="ans2"/>
+<ref bean="ans2"/>
+</list>
+
+</constructor-arg>
+</bean>
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+  
+   <!-- bean definitions go here -->
+<bean id="saddress" class="com.bridgelabz.basics.Address">
+<constructor-arg value="Berhampur"></constructor-arg>
+<constructor-arg value="Odisha"></constructor-arg>
+<constructor-arg value="India"></constructor-arg>
+</bean>
+
+<bean id="saddress1" class="com.bridgelabz.basics.Address"></bean>
+
+<bean id="stuWadd" class="com.bridgelabz.basics.StudentWithAddress" autowire="byName">
+<!-- <constructor-arg value="1"></constructor-arg>
+<constructor-arg value="Bijaya Laxmi"></constructor-arg>
+<constructor-arg>
+<ref bean="add"/>
+</constructor-arg> -->
+</bean>
+</beans>
