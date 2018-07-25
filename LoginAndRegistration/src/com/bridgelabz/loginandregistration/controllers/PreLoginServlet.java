@@ -15,6 +15,5 @@ public class PreLoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		RequestDispatcher rd = req.getRequestDispatcher("SignIn.jsp");
 		rd.forward(req, resp);
-
 	}
 }
